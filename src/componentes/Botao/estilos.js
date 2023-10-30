@@ -5,7 +5,7 @@ export default StyleSheet.create({
     height: 40,
     width: "100%",
     borderRadius: 5,
-    backgroundColor: "#1E8187",
+    backgroundColor: "#A569BD",
     justifyContent: "center",
     alignItems: "center",
     marginTop: 20,
@@ -14,6 +14,6 @@ export default StyleSheet.create({
     fontSize: 15,
     fontFamily: "Roboto",
     fontWeight: "700",
-    color: "#fff",
+    color: "black",
   }
 });
