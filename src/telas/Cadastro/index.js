@@ -12,18 +12,18 @@ export default function Cadastro({ navigation }) {
   const [senha, setSenha] = useState('');
   const [confirmaSenha, setConfirmaSenha] = useState('');
 
-  useEffect(()=>{
-    createUserWithEmailAndPassword(auth, "teste3@gmail.com", "12345678", null)
-    .then((dadosUsuario)=>{
-      console.log(dadosUsuario);
-    })
-    .catch((error)=>{
-      const errorCode = error.code;
-      const erroMessage = error.message;
-      console.log(error);
-      // ...
-    })
-  })
+  // useEffect(()=>{
+  //   createUserWithEmailAndPassword(auth, "teste3@gmail.com", "12345678", null)
+  //   .then((dadosUsuario)=>{
+  //     console.log(dadosUsuario);
+  //   })
+  //   .catch((error)=>{
+  //     const errorCode = error.code;
+  //     const erroMessage = error.message;
+  //     console.log(error);
+  //     // ...
+  //   })
+  // })
 
   async function realizarCadastro(){
     await cadastrar(email, senha, confirmaSenha);
